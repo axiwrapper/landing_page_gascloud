@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GasCloud: gestione interventi F-Gas, bombole, apparecchiature e XML in un unico software.">
+  <title>GasCloud | Il lavoro F-Gas, finalmente in ordine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="nav-wrap">
+      <a class="brand" href="#top" aria-label="GasCloud, torna all'inizio">
+        <img src="assets/logo-gascloud.jpeg" alt="GasCloud">
+      </a>
+      <nav class="desktop-nav" aria-label="Navigazione principale">
+        <a href="#come-funziona">Come funziona</a>
+        <a href="#funzionalita">Funzionalità</a>
+        <a href="#prezzi">Prezzi</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="text-link" href="https://gascloud.onrender.com/">Accedi</a>
+        <a class="button button-small" href="https://gascloud.onrender.com/register">Registrati</a>
+      </div>
+      <button class="menu-toggle" aria-label="Apri menu" aria-expanded="false"><span></span><span></span></button>
+    </div>
+    <div class="mobile-nav" hidden>
+      <a href="#come-funziona">Come funziona</a><a href="#funzionalita">Funzionalità</a><a href="#prezzi">Prezzi</a><a href="#faq">FAQ</a>
+      <a href="https://gascloud.onrender.com/">Accedi</a><a class="button" href="https://gascloud.onrender.com/register">Registrati</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span></span> Progettato per chi lavora con gli F-Gas</div>
+        <h1>Dal QR Code<br>alla Banca Dati.<br><em>Tutto sotto controllo.</em></h1>
+        <p class="hero-lead">Gestisci bombole, apparecchiature e interventi sul campo. GasCloud controlla i dati, aggiorna il magazzino e prepara l’XML F-Gas per l’importazione.</p>
+        <div class="hero-actions">
+          <a class="button" href="https://gascloud.onrender.com/register">Registrati <span>→</span></a>
+          <a class="button-secondary" href="#prodotto"><span class="play">▶</span> Guarda come funziona</a>
+        </div>
+        <p class="microcopy">Registrazione online · Configurazione guidata · Supporto italiano</p>
+      </div>
+
+      <div class="hero-visual reveal" id="prodotto">
+        <div class="glow"></div>
+        <div class="app-window real-product-window">
+          <div class="real-window-bar"><span></span><span></span><span></span><strong>Dashboard GasCloud</strong></div>
+          <img src="assets/dashboard-clean.jpg" alt="Dashboard reale del gestionale GasCloud">
+        </div>
+        <div class="float-card qr-card"><span class="fake-qr">▦</span><div><small>Bombola identificata</small><strong>R-410A · Vergine</strong></div><b>✓</b></div>
+        <div class="float-card xml-card"><span>XML</span><div><small>File pronto</small><strong>Conforme al tracciato F-Gas</strong></div></div>
+      </div>
+    </section>
+
+    <section class="trust-strip"><p>Un unico flusso per lavorare con meno errori</p><div><span>✓ Dati separati per azienda</span><span>✓ Controlli automatici sul gas</span><span>✓ Storico sempre disponibile</span><span>✓ Utilizzabile da smartphone</span></div></section>
+
+    <section class="problem section-shell split-section">
+      <div class="section-label reveal">IL PROBLEMA</div>
+      <div class="reveal"><h2>Il lavoro è sul campo.<br>I dati, spesso, <em>sono ovunque.</em></h2><p>Fogli, messaggi, appunti e inserimenti ripetuti fanno perdere tempo e aumentano il rischio di errori. GasCloud collega ogni operazione, dalla bombola all’intervento.</p></div>
+      <div class="pain-list reveal"><article><span>01</span><div><h3>Tracciabilità frammentata</h3><p>Non sai subito dove è stato utilizzato il gas e quanto ne rimane.</p></div></article><article><span>02</span><div><h3>Doppio inserimento</h3><p>Gli stessi dati vengono ricopiati più volte tra campo, ufficio e portali.</p></div></article><article><span>03</span><div><h3>Errori scoperti troppo tardi</h3><p>Gas incompatibili, quantità errate o dati incompleti emergono solo a fine lavoro.</p></div></article></div>
+    </section>
+
+    <section class="flow-section" id="come-funziona">
+      <div class="section-shell">
+        <div class="section-heading centered reveal"><div class="section-label">UN FLUSSO, DALL’INTERVENTO ALL’XML</div><h2>Più semplice per il tecnico.<br><em>Più controllo per l’azienda.</em></h2></div>
+        <div class="flow-grid">
+          <article class="reveal"><div class="step-icon scan"><span>⌗</span><i></i></div><span class="step-number">01</span><h3>Scansiona</h3><p>Identifica la bombola con il QR Code e richiama subito gas e disponibilità.</p></article>
+          <article class="reveal"><div class="step-icon edit"><span>✎</span></div><span class="step-number">02</span><h3>Registra</h3><p>Compila l’intervento per apparecchiatura e circuito, anche senza movimento di gas.</p></article>
+          <article class="reveal"><div class="step-icon check"><span>✓</span></div><span class="step-number">03</span><h3>Controlla</h3><p>GasCloud verifica compatibilità e quantità, aggiornando automaticamente la bombola.</p></article>
+          <article class="reveal"><div class="step-icon export"><span>XML</span></div><span class="step-number">04</span><h3>Esporta</h3><p>Genera un unico XML con gli interventi pronti per il portale Banca Dati F-Gas.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="features section-shell" id="funzionalita">
+      <div class="section-heading reveal"><div class="section-label">TUTTO CIÒ CHE SERVE, SENZA COMPLICAZIONI</div><h2>Un gestionale costruito<br><em>intorno al tuo lavoro.</em></h2></div>
+      <div class="feature-grid">
+        <article class="feature feature-large blue reveal"><div class="feature-copy"><span class="feature-tag">APPARECCHIATURE MULTICIRCUITO</span><h3>Ogni circuito, nello stesso intervento.</h3><p>Installazione, manutenzione, riparazione, controllo perdite e smantellamento. Registra gas presente, recuperato e aggiunto per ciascun circuito.</p></div><div class="real-feature-shot"><img src="assets/apparecchiature-real.jpg" alt="Gestione reale dei circuiti di un'apparecchiatura in GasCloud"></div></article>
+        <article class="feature reveal"><div class="icon-box">▦</div><h3>Bombole e QR Code</h3><p>Giacenze aggiornate a ogni carico, scarico e recupero. Lo storico segue sempre la bombola.</p><div class="small-real-shot"><img src="assets/bombole-real.jpg" alt="Anagrafica bombole reale di GasCloud"></div></article>
+        <article class="feature reveal"><div class="icon-box">▤</div><h3>XML F-Gas guidato</h3><p>Verifica i dati mancanti, seleziona gli interventi e genera il file da importare nel portale.</p><div class="xml-progress"><span><i></i><b>Dati azienda</b><em>✓</em></span><span><i></i><b>12 interventi</b><em>✓</em></span><span><i></i><b>File XML</b><em>Pronto</em></span></div></article>
+        <article class="feature feature-wide reveal"><div><div class="icon-box">⌁</div><h3>Report che parlano chiaro</h3><p>Consumi, movimenti e CO₂ equivalente per cliente. Esporta i dati in Excel e PDF, con analisi intelligenti nel piano Plus.</p></div><div class="wide-real-shot"><img src="assets/report-real.jpg" alt="Report e grafici reali di GasCloud"></div></article>
+      </div>
+    </section>
+
+    <section class="field-section"><div class="section-shell field-grid"><div class="field-real-wrap reveal"><div class="field-browser"><div class="real-window-bar"><span></span><span></span><span></span><strong>Inserimento intervento</strong></div><img src="assets/intervento-real.jpg" alt="Inserimento reale di un intervento multicircuito in GasCloud"></div><div class="scan-highlight">⌗ <strong>Scansione QR integrata</strong></div></div><div class="field-copy reveal"><div class="section-label light">PENSATO PER IL CAMPO</div><h2>Il tecnico registra.<br><em>L’ufficio ha già tutto.</em></h2><p>Da smartphone, tablet o computer il tecnico può identificare bombola e apparecchiatura, compilare i circuiti e concludere l’intervento. I dati sono subito disponibili per il controllo e l’esportazione.</p><ul><li><span>✓</span> Interfaccia utilizzabile da telefono e tablet</li><li><span>✓</span> Inserimento guidato in base al tipo di intervento</li><li><span>✓</span> Controlli prima del salvataggio</li></ul><a href="https://gascloud.onrender.com/register">Registrati a GasCloud →</a></div></div></section>
+
+    <section class="pricing section-shell" id="prezzi">
+      <div class="section-heading centered reveal"><div class="section-label">PIANI SEMPLICI, SENZA COSTI PER SINGOLO UTENTE</div><h2>Scegli lo spazio giusto<br><em>per la tua squadra.</em></h2><p>Scegli il piano più adatto al tuo modo di lavorare e crea il tuo account.</p></div>
+      <div class="billing-toggle reveal"><button class="active" data-cycle="monthly">Mensile</button><button data-cycle="yearly">Annuale <span>2 mesi inclusi</span></button></div>
+      <div class="price-grid">
+        <article class="price-card reveal"><div><span class="plan-name">BASE</span><h3><span class="monthly">€45</span><span class="yearly">€450</span><small class="monthly">/mese + IVA</small><small class="yearly">/anno + IVA</small></h3><p>Per iniziare a tracciare bombole e attività quotidiane.</p></div><strong class="operators">Fino a 3 operatori</strong><ul><li>Gestione bombole e movimenti</li><li>Clienti e fornitori</li><li>Scansione e QR Code</li><li>Report operativi essenziali</li></ul><a class="button-outline" href="https://gascloud.onrender.com/register">Registrati</a></article>
+        <article class="price-card recommended reveal"><div class="recommended-label">PIÙ SCELTO</div><div><span class="plan-name">STANDARD</span><h3><span class="monthly">€65</span><span class="yearly">€650</span><small class="monthly">/mese + IVA</small><small class="yearly">/anno + IVA</small></h3><p>Per gestire il flusso completo, dagli interventi all’XML.</p></div><strong class="operators">Fino a 5 operatori</strong><ul><li>Tutto il piano Base</li><li>Gestione apparecchiature e circuiti</li><li>Export XML F-Gas e storico</li><li>Report avanzati e CO₂</li><li>Movimenti interni</li></ul><a class="button" href="https://gascloud.onrender.com/register">Registrati</a></article>
+        <article class="price-card reveal"><div><span class="plan-name">PLUS</span><h3><span class="monthly">€95</span><span class="yearly">€950</span><small class="monthly">/mese + IVA</small><small class="yearly">/anno + IVA</small></h3><p>Per aziende che vogliono più controllo e analisi.</p></div><strong class="operators">Fino a 10 operatori</strong><ul><li>Tutto il piano Standard</li><li>Storico completo per cliente</li><li>Analisi IA di statistiche e report</li><li>Controllo consumi, costi e ricavi</li><li>Assistenza prioritaria</li></ul><a class="button-outline" href="https://gascloud.onrender.com/register">Registrati</a></article>
+      </div>
+      <div class="enterprise reveal"><div><span>ENTERPRISE</span><h3>Hai più di 10 operatori?</h3><p>Costruiamo insieme configurazione, supporto e condizioni adatte alla tua azienda.</p></div><a class="button-secondary" href="mailto:info@gascloud.it">Parliamone →</a></div>
+    </section>
+
+    <section class="faq section-shell" id="faq"><div class="faq-intro reveal"><div class="section-label">DOMANDE FREQUENTI</div><h2>Prima di iniziare,<br><em>può esserti utile.</em></h2><p>Non trovi la risposta che cerchi? Scrivici: ti risponde una persona che conosce il prodotto.</p><a href="mailto:info@gascloud.it">Contattaci →</a></div><div class="accordion reveal"><details open><summary>GasCloud invia direttamente i dati alla Banca Dati F-Gas?<span>＋</span></summary><p>GasCloud genera il file XML conforme al tracciato previsto, pronto per essere importato sul portale ufficiale. L’invio resta sotto il controllo dell’azienda.</p></details><details><summary>Posso registrare un intervento senza usare una bombola?<span>＋</span></summary><p>Sì. Puoi registrare l’intervento anche quando non viene aggiunto o recuperato gas. La bombola viene associata solo quando serve.</p></details><details><summary>Gestisce apparecchiature con più circuiti?<span>＋</span></summary><p>Sì. Nello stesso intervento puoi compilare separatamente i dati di ogni circuito sul quale hai lavorato.</p></details><details><summary>Posso usarlo da smartphone?<span>＋</span></summary><p>Sì. L’interfaccia è pensata anche per l’uso sul campo, inclusa la scansione dei QR Code.</p></details><details><summary>Devo pagare un costo per ogni tecnico?<span>＋</span></summary><p>No. Ogni piano include un numero definito di operatori. Per squadre oltre 10 operatori è disponibile il piano Enterprise.</p></details></div></section>
+
+    <section class="final-cta"><div class="cta-cloud"></div><div class="section-shell reveal"><span>IL PROSSIMO INTERVENTO PUÒ ESSERE PIÙ SEMPLICE</span><h2>Porta ordine nel tuo lavoro.<br><em>Dal primo QR Code.</em></h2><p>Scopri un modo più lineare per gestire gas, bombole e adempimenti.</p><div><a class="button button-white" href="https://gascloud.onrender.com/register">Registrati →</a><a href="mailto:info@gascloud.it">Richiedi una demo</a></div></div></section>
+  </main>
+
+  <footer><div class="section-shell footer-grid"><div class="footer-brand"><img src="assets/logo-gascloud.jpeg" alt="GasCloud"><p>Il gestionale cloud per imprese e tecnici che lavorano con gas refrigeranti.</p></div><div><strong>Prodotto</strong><a href="#come-funziona">Come funziona</a><a href="#funzionalita">Funzionalità</a><a href="#prezzi">Prezzi</a></div><div><strong>Supporto</strong><a href="mailto:info@gascloud.it">Contatti</a><a href="#faq">FAQ</a><a href="https://gascloud.onrender.com/">Accedi</a><a href="https://gascloud.onrender.com/register">Registrati</a></div><div><strong>Legale</strong><a href="https://gascloud.onrender.com/privacy">Privacy</a><a href="https://gascloud.onrender.com/termini_condizioni">Termini e condizioni</a></div></div><div class="section-shell footer-bottom"><span>© 2026 GasCloud. Tutti i diritti riservati.</span><span>Software italiano per il settore F-Gas 🇮🇹</span></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
